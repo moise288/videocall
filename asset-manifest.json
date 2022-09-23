@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/videocall/static/css/main.f6c2badf.chunk.css",
+    "main.js": "/videocall/static/js/main.117c7412.chunk.js",
+    "main.js.map": "/videocall/static/js/main.117c7412.chunk.js.map",
+    "runtime-main.js": "/videocall/static/js/runtime-main.392358da.js",
+    "runtime-main.js.map": "/videocall/static/js/runtime-main.392358da.js.map",
+    "static/js/2.3b45afc9.chunk.js": "/videocall/static/js/2.3b45afc9.chunk.js",
+    "static/js/2.3b45afc9.chunk.js.map": "/videocall/static/js/2.3b45afc9.chunk.js.map",
+    "static/js/3.9d5e5462.chunk.js": "/videocall/static/js/3.9d5e5462.chunk.js",
+    "static/js/3.9d5e5462.chunk.js.map": "/videocall/static/js/3.9d5e5462.chunk.js.map",
+    "index.html": "/videocall/index.html",
+    "static/css/main.f6c2badf.chunk.css.map": "/videocall/static/css/main.f6c2badf.chunk.css.map",
+    "static/js/2.3b45afc9.chunk.js.LICENSE.txt": "/videocall/static/js/2.3b45afc9.chunk.js.LICENSE.txt",
+    "static/media/copy.4c19a6dd.svg": "/videocall/static/media/copy.4c19a6dd.svg",
+    "static/media/hangup.ca680c47.svg": "/videocall/static/media/hangup.ca680c47.svg",
+    "static/media/more-vertical.4cad7095.svg": "/videocall/static/media/more-vertical.4cad7095.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.392358da.js",
+    "static/js/2.3b45afc9.chunk.js",
+    "static/css/main.f6c2badf.chunk.css",
+    "static/js/main.117c7412.chunk.js"
+  ]
+}

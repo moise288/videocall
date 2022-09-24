@@ -68,16 +68,16 @@ function Menu({ joinCode, setJoinCode, setPage }) {
     return (
         <div className="home">
             <div className="create box">
-                <button onClick={() => setPage("create")}>Create Call</button>
+                <button className="btn-appeler" onClick={() => setPage("create")}>Appeler</button>
             </div>
 
             <div className="answer box">
                 <input
                     value={joinCode}
                     onChange={(e) => setJoinCode(e.target.value)}
-                    placeholder="Join with code"
+                    placeholder="Joindre avec le code"
                 />
-                <button onClick={() => setPage("join")}>Answer</button>
+                <button className="btn-repondre" onClick={() => setPage("join")}>Répondre</button>
             </div>
         </div>
     );
@@ -253,7 +253,7 @@ function Videos({ mode, callId, setPage }) {
                                 navigator.clipboard.writeText(roomId);
                             }}
                         >
-                            <CopyIcon /> Copy joining code
+                            <CopyIcon /> Copier le code de connexion
                         </button>
                     </div>
                 </div>
@@ -263,17 +263,16 @@ function Videos({ mode, callId, setPage }) {
                 <div className="modalContainer">
                     <div className="modal">
                         <h3>
-                            Turn on your camera and microphone and start the
-                            call
+                            Allumez votre caméra et votre microphone et démarrez l'appel
                         </h3>
                         <div className="container">
                             <button
                                 onClick={() => setPage("home")}
                                 className="secondary"
                             >
-                                Cancel
+                                Annuler
                             </button>
-                            <button onClick={setupSources}>Start</button>
+                            <button onClick={setupSources}>Commencer</button>
                         </div>
                     </div>
                 </div>
